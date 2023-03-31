@@ -10,9 +10,10 @@ namespace webApiTemplate.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        //Lista de comidas
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Papa a la Huancaina", "Arroz con Pollo y su ceviche", "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
